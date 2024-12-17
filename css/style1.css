@@ -1,0 +1,467 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+body{
+  font-family: sans-serif;
+  overflow-x: hidden;
+  /* background:rgb(243, 243, 243); */
+  background:rgb(20, 33, 61);
+  color: white;
+}
+/******************************************
+/* Header - Nav Bar & Logo
+/*******************************************/
+.headerNav{
+  display:flex;
+  background: rgb(0, 63, 136);
+  color: rgb(233, 236, 241);
+}
+.navLogo{
+  margin: 1.2rem;
+  height: 4rem;
+}
+.headerList{
+  display: flex;
+  align-items: center;
+  list-style:none;
+  gap: 4rem;
+  width: 80rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  }
+.headerList a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family:roboto;
+}
+/******************************************
+/* Welcome Text
+/*******************************************/
+.welcome{
+  text-align: center;
+}
+.welcome h1{
+  margin:20px;
+  font-size: 4rem;
+  color: white;
+}
+.welcome p{
+  margin:20px;
+  font-size: 2rem;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0 10%;
+}
+/******************************************
+/* Main Columns
+/*******************************************/
+.columns{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 5rem;
+  gap: 2rem;
+  color:  rgb(20, 33, 61);
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  background:rgb(0, 63, 136);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  flex: 1 1 0;
+  padding: 1rem 2rem; 
+}
+.column h2{
+  font-size: 2vw;
+  margin-bottom: 0;
+  padding-bottom: 1.5rem;
+  color: white;
+}
+.column p{
+  margin: 0;
+  font-family: roboto;
+  color: white;
+}
+.column ul{
+  padding: 0 0 2.5rem 0;
+  margin: 0;
+  font-size: 1.4rem;
+  font-family: roboto;
+  font-size: 1.8vw;
+  color: white;
+}
+.column li{
+  padding: .3rem 0px;
+  list-style: none;
+  margin-bottom: 0;
+}
+.columnButton{
+  margin: auto 0px 2rem 0px;
+  border: .001rem black solid;
+  border-radius: 2rem;
+  background: rgb(20, 33, 61);
+  color: white;  
+  height: 4rem;
+  font-size: 1.5rem;
+} 
+.columnButton a{
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+.columnButton a:visited {
+  color: white;
+}
+/******************************************
+/* Services
+/*******************************************/
+.ourServices{
+  background: rgb(20, 33, 61);
+  color: white;
+}
+.services{
+  background: rgb(20, 33, 61);
+  color: white;
+}
+.ourServices h1{
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 4rem;
+}
+.services{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 5rem;
+  background:rgb(0, 63, 136);
+  gap: 2rem;
+  color: yellow;
+  flex-wrap: wrap;
+  text-align: center;
+  flex: 1;
+  font-family: roboto;
+}
+.service{
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  padding: 1rem 2rem; 
+  flex-basis: 20%;
+  justify-content: center;
+  gap: .5rem;
+}
+.service i{
+  margin-top: auto;
+}
+.service h2{
+  color:rgb(20, 33, 61);
+  font-size: 1.8rem;
+  flex-basis: 100%;
+  margin-top: auto;
+}
+/******************************************
+/* About Us
+/*******************************************/
+.aboutUs{
+  background: rgb(252, 163, 17);
+  padding: 3rem 5rem 2rem 0rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.lelena{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  padding-right: 4rem;
+}
+.lelena h1{
+  font-size: 4rem;
+  margin: 0;
+}
+.lelena span{
+  font-size: 2rem;
+}
+.lelena img{  
+ width: 60%;
+}
+.aboutUsText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  color:rgb(20, 33, 61);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+.aboutUsText p{
+  font-size: 1.6vw;
+  font-family: roboto;
+}
+/******************************************
+/* Visit Us
+/*******************************************/
+.visitUs{
+  display: flex;
+  background: rgb(243, 243, 243);
+  color: black;
+  justify-content: center;
+  padding: 4rem;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding-top: 1rem;
+}
+.module{
+  width: 45%;
+  padding-left: 2rem;
+  background: rgb(20, 33, 61);
+  color: white;
+}
+.visitUs h2{
+  font-size: 2.2vw;
+}
+.visitUs li{
+  font-size: 1.4vw;
+  list-style: none;
+  font-family: roboto;
+}
+.visitUs ul{
+  padding: 0;
+}
+.visitUs a{
+  text-decoration: none;
+  color: rgb(0, 0, 0),
+}
+.visitUs a:visited {
+  color: rgb(0, 0, 0),
+}
+
+/******************************************
+/* Office Directions Slide
+*****************************************/
+.office-directions-header{
+  display: flex;
+  justify-content:center;
+  margin: 0;
+  /* background: rgb(255, 255, 255); */
+  background:rgb(0, 63, 136);
+  color: white;
+
+}
+.office-directions-header h1{
+  font-size: 4rem;
+  color:white;
+  margin-bottom: 0;
+}
+.office-directions{
+  display: flex;
+  /* background: rgb(255, 255, 255); */
+  background: rgb(0, 63, 136);
+  padding: 3rem 5rem 2rem 0rem;
+  color:rgb(20, 33, 61);
+  justify-content: between;
+  padding: 0rem 6rem 2rem 6rem;
+  gap: auto;
+}
+.office-directions ul{
+  list-style:none;
+  padding: 0;
+  margin-top: 0;
+}
+.carousel-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.navigation{
+  display: flex;
+}
+.navigation .prev {
+  font-size: 2rem;
+  justify-self: flex-end;
+  align-self: center;
+}
+.navigation .next {
+  font-size: 2rem;
+  justify-self: flex-end;
+  align-self: center;
+}
+.navigation .nav-btn {
+  background: rgba(255, 255, 255, 0.55);
+  cursor:pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navigation .nav-btn:hover {
+  background: white;
+}
+.carousel {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  width: 100%;
+  height: 25rem;
+}
+.carousel img {
+  transition: all 0.3s ease;
+  border:8px solid white;
+  width: 50rem;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-self: center;
+}
+.item {
+  display: none;
+  padding: 2rem;
+}
+.main {
+  display: inline-block;
+}
+.directions-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  color:rgb(20, 33, 61);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  width: 70%;
+  height: 100%;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+.directions-text h1{
+ margin-bottom: .5rem;
+ width: 80%;
+}
+.directions-text p{
+  font-size: 1.6vw;
+  font-family: roboto;
+  padding: 1rem;
+  margin: auto;
+}
+
+/******************************************
+/* Media Queries
+/*******************************************/
+  /*Iphone */
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+  /*Nav Bar*/
+ .headerNav{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ }
+ .headerList{
+  justify-content: center;
+ }
+ .headerList li{
+  font-size: 2.5rem;
+ }
+ .navLogo{
+  height: 10rem;
+ }
+  /*Welcome*/
+  .welcome h1{
+  font-size:7rem ;
+  }
+  .welcome p{
+  font-size:3rem ;
+  }
+  /*Columns*/
+  .columns{
+    flex-direction: column;
+  }
+  .columns h2{
+    font-size: 5rem;
+    margin-top: 1.5rem;
+  }
+  .columns ul{
+    font-size: 2.5rem;
+  }
+  .columns a{
+    font-size: 2.5rem;
+  }
+   /*Services*/
+   .ourServices h1{
+    font-size: 6rem ;
+   }
+   .services h2{
+    font-size: 2rem ;
+   }
+   .service{
+    flex-basis: 40%;
+   }
+  /*About Us*/
+  .aboutUs{
+    flex-direction: column;
+    padding: 4rem;
+  }
+  .lelena{
+    padding: 0;
+  }
+  .aboutUs h1{
+    font-size: 6rem;
+  }
+  .aboutUs span{
+    font-size: 4rem;
+  }
+  .aboutUsText p{
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+    /*Office-directions*/
+  .office-directions-header{
+    flex-direction: column;
+    justify-self: center;
+  }
+  .office-directions-header h1{
+    font-size: 6rem;
+    padding: 0rem 4rem 2rem;
+    align-self: center;
+  }
+  .office-directions {
+    flex-direction: column;
+    justify-self: center;
+  }
+  .office-directions p{
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .directions-text{
+    width: 100%;
+    margin: 0;
+    align-self: center;
+  }
+  /*Visit Us*/
+  .visitUs{
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  .module{
+    width: 100%;
+  }
+  .visitUs h2{
+    font-size: 6rem;
+    margin-bottom: 0;
+  }
+  .visitUs li{
+    font-size: 2.5rem;
+  }  
+}

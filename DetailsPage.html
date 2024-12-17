@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habesha Service Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(20, 33, 61);
+            color: rgb(20, 33, 61);
+        }
+        header {
+            background-color: rgb(0, 63, 136);
+            color: white;
+            text-align: center;
+            padding: 0.3em 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .service h2 {
+            color: rgb(20, 33, 61);
+        }
+        footer {
+            background-color: rgb(0, 63, 136);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .visitUs{
+  display: flex;
+  background: rgb(243, 243, 243);
+  color: black;
+  justify-content: center;
+  padding: 4rem;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding-top: 1rem;
+}
+.module{
+  width: 45%;
+  padding-left: 2rem;
+  background: rgb(20, 33, 61);
+  color: white;
+}
+.visitUs h2{
+  font-size: 2.2vw;
+}
+.visitUs li{
+  font-size: 1.4vw;
+  list-style: none;
+  font-family: roboto;
+}
+.visitUs ul{
+  padding: 0;
+}
+.visitUs a{
+  text-decoration: none;
+  color: rgb(0, 0, 0),
+}
+.visitUs a:visited {
+  color: rgb(0, 0, 0),
+}
+
+/******************************************
+/* Office Directions Slide
+*****************************************/
+.office-directions-header{
+  display: flex;
+  justify-content:center;
+  margin: 0;
+  /* background: rgb(255, 255, 255); */
+  background:rgb(0, 63, 136);
+  color: white;
+
+}
+.office-directions-header h1{
+  font-size: 4rem;
+  color:white;
+  margin-bottom: 0;
+}
+.office-directions{
+  display: flex;
+  /* background: rgb(255, 255, 255); */
+  background: rgb(0, 63, 136);
+  padding: 3rem 5rem 2rem 0rem;
+  color:rgb(20, 33, 61);
+  justify-content: between;
+  padding: 0rem 6rem 2rem 6rem;
+  gap: auto;
+}
+.office-directions ul{
+  list-style:none;
+  padding: 0;
+  margin-top: 0;
+}
+.carousel-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.navigation{
+  display: flex;
+}
+.navigation .prev {
+  font-size: 2rem;
+  justify-self: flex-end;
+  align-self: center;
+}
+.navigation .next {
+  font-size: 2rem;
+  justify-self: flex-end;
+  align-self: center;
+}
+.navigation .nav-btn {
+  background: rgba(255, 255, 255, 0.55);
+  cursor:pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navigation .nav-btn:hover {
+  background: white;
+}
+.carousel {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  width: 100%;
+  height: 25rem;
+}
+.carousel img {
+  transition: all 0.3s ease;
+  border:8px solid white;
+  width: 50rem;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-self: center;
+}
+.item {
+  display: none;
+  padding: 2rem;
+}
+.main {
+  display: inline-block;
+}
+.directions-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  color:rgb(20, 33, 61);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  width: 70%;
+  height: 100%;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+.directions-text h1{
+ margin-bottom: .5rem;
+ width: 80%;
+}
+.directions-text p{
+  font-size: 1.6vw;
+  font-family: roboto;
+  padding: 1rem;
+  margin: auto;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Habesha Service Hub</h1>
+        <p>Your One-Stop Solution for Comprehensive Services,   Call for Free Tax Refund Estimation  <b>909 501 4108</b></p>
+    </header>
+    <div class="container">
+        <div class="services">
+            <div class="service">
+                <h2>Tax Services</h2>
+                <p>Expert advice and support to simplify your tax process and ensure compliance.We prepare personal and business tax for our cleints. <b>Get Free Tax Refund Estimation for Free.</b></p>
+            </div>
+            <div class="service">
+                <h2>Immigration Services</h2>
+                <p>Comprehensive assistance to help you navigate the complexities of immigration with ease.We help clients to form USCIS forms like <b>Green card, Citizenship, Work authorization,family member sponsorship application and more.</b> </p>
+            </div>
+            <div class="service">
+                <h2>Insurance Services</h2>
+                <p>Reliable and comprehensive coverage to protect what matters most.We are <b>licensed agent for Property and Causuality insurance.</b>. Call us if you need insurance for your <b>car, house or business.</b> </p>
+            </div>
+            <div class="service">
+                <h2>Translation Services</h2>
+                <p>Professional translation services to diverse immigrant community.We translate documents from <b>Amharich, Affan Oromo, Tigrigna and more languages to English.</b></p>
+            </div>
+            <div class="service">
+                <h2>Power of Attorney (ውክልና)</h2>
+                <p>Professional preparation of legal documents to safeguard your interests.We use technology to deliver power of attorney to Ethiopia <b>within 5 days.</b></p>
+            </div>
+            <div class="service">
+                <h2>Ethiopian Passport Services</h2>
+                <p>We use technology for streamlined applications and passport renewals to facilitate your travel needs.We only need <b>2-3 weeks</b> to deliver your passport.</p> 
+            </div>
+        </div>
+    </div>
+    <section class="visitUs" id="visitUs">
+        <!-- <h1>Visit Us</h1> -->
+        <section class ="module">
+          <h2>Store Hours</h2>
+          <ul>
+            <li>Monday-Friday: 9am-5pm</li>
+            <li>Saturday: By Appointments</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </section>
+        <section class ="module">
+            <h2>Contact Us</h2>
+            <ul>
+              <li>Phone: 999-999-9999</li>
+              <li>Email: contact@habeshaservice.com</li>
+              <!--<li><a href="https://www.facebook.com/CherubInsurance/">Facebook: facebook.com/ChurebInsurance</a></li>-->
+            </ul>
+        </section>
+        <section class ="module">
+          <h2>Location</h2>
+          <ul>
+            <li>9560 Skillman St</li>
+            <li>Dallas, TX 75243</li>
+          </ul>
+        </section>
+        <section class ="module" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.690748910441!2d-96.71225892457996!3d32.90634377360994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1fd3a0fe1ddf%3A0x5f2d191f217c7a07!2s9560%20Skillman%20St%2C%20Dallas%2C%20TX%2075243!5e0!3m2!1sen!2sus!4v1733864282610!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2024 Habesha Service Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

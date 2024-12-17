@@ -1,0 +1,72 @@
+/******************************************
+/* CSS
+/*******************************************/
+body{
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background: rgb(229,229,229);
+  color: black;
+}
+/******************************************
+/* Header - Nav Bar & Logo
+/*******************************************/
+.headerNav{
+  display:flex;
+  background: white;
+  color: rgb(20, 33, 61);
+  /*font-weight: bold;*/
+}
+.navLogo{
+  margin: 1.5rem;
+  height: 4rem;
+}
+.headerList{
+  display: flex;
+  align-items: center;
+  list-style:none;
+  gap: 4rem;
+  color: black;
+  width: 60rem;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+.headerList a{
+  text-decoration: none;
+  color: rgb(20, 33, 61);
+  font-size: 1.5rem;
+  /*font-weight: bold;*/
+  font-family:roboto;
+}
+.footer { background-color:rgb(0, 63, 136); color: white; text-align: center;justify-content: center; padding: 100px; position: center; left: 50%; bottom: 0; width: 100%; }
+ .footer a { color: #ff6347; text-decoration: none;background-color:rgb(0, 63, 136);justify-content: center; margin: auto; } .footer a:hover { text-decoration: underline;}
+/******************************************
+/* Main
+/*******************************************/
+main{
+  text-align: center;
+  font-family: roboto;
+}
+/******************************************
+/* Media Queries
+/*******************************************/
+  /*Iphone */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /*Nav Bar*/
+   .headerNav{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+   .headerList{
+    justify-content: center;
+   }
+   .headerList li{
+    font-size: 2.5rem;
+   }
+   .navLogo{
+    height: 10rem;
+   }
+   main h1{
+    font-size: 4rem;
+   }
+}
