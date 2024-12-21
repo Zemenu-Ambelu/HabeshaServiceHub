@@ -36,6 +36,10 @@ body{
   font-size: 1.5rem;
   font-family:roboto;
 }
+.phone{
+  color: yellow;
+  font-family: 'Arial', sans-serif;
+}
 /******************************************
 /* Welcome Text
 /*******************************************/
